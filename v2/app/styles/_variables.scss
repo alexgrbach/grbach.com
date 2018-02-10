@@ -1,0 +1,15 @@
+//$fa-font-path: "bower_components/font-awesome/fonts";
+$theme-danger: #e74c3c;
+
+$theme-primary: #fed136 !default;
+$theme-primary-darker: darken($theme-primary, 25%) !default;
+$theme-primary-dark: darken($theme-primary, 20%) !default;
+$theme-primary-light: lighten($theme-primary, 15%) !default;
+$theme-primary-lighter: lighten($theme-primary, 30%) !default;
+
+$gray-base: #000 !default;
+$gray-darker: lighten($gray-base, 13.5%) !default; // #222
+$gray-dark: lighten($gray-base, 20%) !default;   // #333
+$gray: lighten($gray-base, 33.5%) !default; // #555
+$gray-light: lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee

@@ -1,0 +1,463 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Baseball Manager</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom Fonts -->
+    <link href="Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Open+Sans+Condensed:300|Special+Elite" rel="stylesheet">
+
+
+
+    <!-- Theme CSS -->
+    <link href="Content/index/agency.css" rel="stylesheet" />
+    <link href="Content/index/index.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Baseball Manager</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#leagues">Leagues</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#teams">Teams</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Baseball is Love.</div>
+                <div class="intro-heading">Baseball is Life.</div>
+                <a href="#leagues" class="page-scroll btn btn-xl">SHOW US WHAT YOU GOT</a>
+            </div>
+        </div>
+    </header>
+
+<!-- Leagues Section -->
+    <section id="leagues">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">Leagues</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div id="leagueAccordion" role="tablist" aria-multiselectable="true">
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="League1">
+                                        <h2 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="http://localhost:56171/#League1Collapse" aria-expanded="false" aria-controls="collapseTwo">
+                                                North
+                                            </a>
+                                        </h2>
+                                    </div>
+                                    <div id="League1Collapse" class="collapse" role="tabpanel" aria-labelledby="League1" aria-expanded="false" style="height: 0px;">
+                                        <div class="card-block">
+                                            <table class="table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Team</th>
+                                                        <th>Manager</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                            <tr class="clickable-row" href="#Team2">
+                                                                <td>Some Team</td>
+                                                                <td>Douglas Wachtel</td>
+                                                            </tr>
+                                                            <tr class="clickable-row" href="#Team1">
+                                                                <td>Look another team!</td>
+                                                                <td>Ryan Roe</td>
+                                                            </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="League2">
+                                        <h2 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="http://localhost:56171/#League2Collapse" aria-expanded="false" aria-controls="collapseTwo">
+                                                South
+                                            </a>
+                                        </h2>
+                                    </div>
+                                    <div id="League2Collapse" class="collapse" role="tabpanel" aria-labelledby="League2" aria-expanded="false" style="height: 0px;">
+                                        <div class="card-block">
+                                            <table class="table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Team</th>
+                                                        <th>Manager</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                            <tr class="clickable-row" href="#Team4">
+                                                                <td>We're from the south</td>
+                                                                <td>Brandon Carroll</td>
+                                                            </tr>
+                                                            <tr class="clickable-row" href="#Team3">
+                                                                <td>Us too!</td>
+                                                                <td>Alex Grbach</td>
+                                                            </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams Section-->
+
+    <section id="teams">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">Teams</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div id="teamAccordion" role="tablist">                               
+                            <div class="card">
+                                <div class="card-header" id="Team2">
+                                    <h2 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="http://localhost:56171/#Team2Collapse">
+                                            Some Team
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div id="Team2Collapse" class="collapse panel-collapse" role="tabpanel">
+                                    <div class="card-block">
+                                            <h4>Manager: Douglas Wachtel</h4>
+
+                                            <h4>Number of players: 4</h4>
+
+                                            <table id="team2PlayerTable" class="table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Player Name</th>
+                                                        <th class="table-align-center">Jersey Number</th>
+                                                        <th class="table-align-center">Position</th>
+                                                        <th class="table-align-center">Batting Avg</th>
+                                                        <th class="table-align-center">Years Played</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Francisco Lindor</td>
+                                                            <td class="table-align-center">12</td>
+                                                            <td class="table-align-center">SS</td>
+                                                            <td class="table-align-center">.289</td>
+                                                            <td class="table-align-center">5</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Mike Napoli</td>
+                                                            <td class="table-align-center">26</td>
+                                                            <td class="table-align-center">FB</td>
+                                                            <td class="table-align-center">.198</td>
+                                                            <td class="table-align-center">7</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>John Jones</td>
+                                                            <td class="table-align-center">17</td>
+                                                            <td class="table-align-center">C</td>
+                                                            <td class="table-align-center">.235</td>
+                                                            <td class="table-align-center">6</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Clark Kent</td>
+                                                            <td class="table-align-center">52</td>
+                                                            <td class="table-align-center">TB</td>
+                                                            <td class="table-align-center">.362</td>
+                                                            <td class="table-align-center">10</td>
+                                                        </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="Team4">
+                                    <h2 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="http://localhost:56171/#Team4Collapse">
+                                            Look another team!
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div id="Team4Collapse" class="collapse panel-collapse" role="tabpanel">
+                                    <div class="card-block">
+                                            <h4>Manager: Brandon Carroll</h4>
+
+                                            <h4>Number of players: 3</h4>
+
+                                            <table id="team4PlayerTable" class="table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Player Name</th>
+                                                        <th class="table-align-center">Jersey Number</th>
+                                                        <th class="table-align-center">Position</th>
+                                                        <th class="table-align-center">Batting Avg</th>
+                                                        <th class="table-align-center">Years Played</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Carl Jr</td>
+                                                            <td class="table-align-center">11</td>
+                                                            <td class="table-align-center">FB</td>
+                                                            <td class="table-align-center">.308</td>
+                                                            <td class="table-align-center">12</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>John Yabbo</td>
+                                                            <td class="table-align-center">12</td>
+                                                            <td class="table-align-center">SS</td>
+                                                            <td class="table-align-center">.344</td>
+                                                            <td class="table-align-center">42</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Brandon B</td>
+                                                            <td class="table-align-center">13</td>
+                                                            <td class="table-align-center">LF</td>
+                                                            <td class="table-align-center">.123</td>
+                                                            <td class="table-align-center">12</td>
+                                                        </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="Team3">
+                                    <h2 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="http://localhost:56171/#Team3Collapse">
+                                            We're from the south
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div id="Team3Collapse" class="collapse panel-collapse" role="tabpanel">
+                                    <div class="card-block">
+                                            <h4>Manager: Alex Grbach</h4>
+
+                                            <h4>Number of players: 4</h4>
+
+                                            <table id="team3PlayerTable" class="table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Player Name</th>
+                                                        <th class="table-align-center">Jersey Number</th>
+                                                        <th class="table-align-center">Position</th>
+                                                        <th class="table-align-center">Batting Avg</th>
+                                                        <th class="table-align-center">Years Played</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Bruce Wayne</td>
+                                                            <td class="table-align-center">33</td>
+                                                            <td class="table-align-center">CF</td>
+                                                            <td class="table-align-center">.275</td>
+                                                            <td class="table-align-center">9</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Dak Prescottish</td>
+                                                            <td class="table-align-center">9</td>
+                                                            <td class="table-align-center">LF</td>
+                                                            <td class="table-align-center">.999</td>
+                                                            <td class="table-align-center">7</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Eric VonWardington</td>
+                                                            <td class="table-align-center">44</td>
+                                                            <td class="table-align-center">SB</td>
+                                                            <td class="table-align-center">.289</td>
+                                                            <td class="table-align-center">99</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Ben Kraus</td>
+                                                            <td class="table-align-center">88</td>
+                                                            <td class="table-align-center">CF</td>
+                                                            <td class="table-align-center">.444</td>
+                                                            <td class="table-align-center">22</td>
+                                                        </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="Team1">
+                                    <h2 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="http://localhost:56171/#Team1Collapse">
+                                            Us too!
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div id="Team1Collapse" class="collapse panel-collapse" role="tabpanel">
+                                    <div class="card-block">
+                                            <h4>Manager: Ryan Roe</h4>
+
+                                            <h4>Number of players: 4</h4>
+
+                                            <table id="team1PlayerTable" class="table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Player Name</th>
+                                                        <th class="table-align-center">Jersey Number</th>
+                                                        <th class="table-align-center">Position</th>
+                                                        <th class="table-align-center">Batting Avg</th>
+                                                        <th class="table-align-center">Years Played</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Michael Money</td>
+                                                            <td class="table-align-center">1</td>
+                                                            <td class="table-align-center">C</td>
+                                                            <td class="table-align-center">.301</td>
+                                                            <td class="table-align-center">7</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Victor Pudelski</td>
+                                                            <td class="table-align-center">12</td>
+                                                            <td class="table-align-center">SS</td>
+                                                            <td class="table-align-center">.289</td>
+                                                            <td class="table-align-center">5</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Christian Springer</td>
+                                                            <td class="table-align-center">26</td>
+                                                            <td class="table-align-center">FB</td>
+                                                            <td class="table-align-center">.198</td>
+                                                            <td class="table-align-center">8</td>
+                                                        </tr>
+                                                        <tr class="page-scroll" href="#">
+                                                            <td>Michael Martinez</td>
+                                                            <td class="table-align-center">1</td>
+                                                            <td class="table-align-center">SB</td>
+                                                            <td class="table-align-center">.301</td>
+                                                            <td class="table-align-center">7</td>
+                                                        </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright © Alex Grbach 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">
+
+                                <span class="change-icon">
+                                    <i class="fa fa-lock"></i>
+                                    <i class="fa fa-unlock-alt"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="Scripts/agency.min.js"></script>
+    <script src="Scripts/App/HomeIndex.js"></script>
+
+<!-- End Browser Link -->
+
+</body>
+
+</html>

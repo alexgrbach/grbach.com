@@ -1,0 +1,203 @@
+$icon-font-path: '../fonts/';
+
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+$fa-font-path: "../fonts" !default;
+
+//colors
+$theme-primary: #fed136 !default;
+$theme-primary-darker: darken($theme-primary, 25%) !default;
+$theme-primary-dark: darken($theme-primary, 20%) !default;
+$theme-primary-light: lighten($theme-primary, 15%) !default;
+$theme-primary-lighter: lighten($theme-primary, 30%) !default;
+
+$gray-base: #000 !default;
+$gray-darker: lighten($gray-base, 13.5%) !default; // #222
+$gray-dark: lighten($gray-base, 20%) !default;   // #333
+$gray: lighten($gray-base, 33.5%) !default; // #555
+$gray-light: lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
+//endcolors
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6, p{
+    color: $gray;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer,
+.navbar,
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+.navbar{
+  border: 1px solid $theme-primary;
+  background-color: $theme-primary-lighter;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  background-color: $theme-primary;
+  color: $gray-dark;
+  border-color: $theme-primary-darker;
+}
+.navbar-default .navbar-nav > li > a{
+  color: $gray-light;
+}
+
+.navbar-default .navbar-brand{
+  color: $gray-light;
+  &:hover,
+  &:focus,
+  &:active{
+    color: $gray-dark;
+  }
+}
+
+.btn.btn-primary{
+  background-color: $theme-primary;
+  color: $gray-dark;
+  border-color: $theme-primary-darker;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $theme-primary-lighter;
+    color: $gray-dark;
+    border-color: $theme-primary-darker;
+  }
+}
+
+.photo-row{
+  margin-bottom: 10px;
+}
+
+.photo-img{
+  border-radius: 15px;
+}
+
+.photography-image{
+    height: 100px;
+}
+
+#photography{
+  margin-bottom: 20px;
+}
+
+a{
+  color: $theme-primary;
+  &:hover,
+  &:focus,
+  &:active{
+    color: $theme-primary-darker;
+  }
+}
+/* Custom page header */
+.header {
+  border-bottom: 1px solid $gray-lighter;
+  margin-bottom: 10px;
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    margin-bottom: 1px;
+  }
+
+}
+.jumbotron{
+  background-color: $theme-primary;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 0.5em;
+  border-top: 6px double $theme-primary;
+  font-size: 1.5em;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid $gray-lighter;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+.modal-dialog {
+  // width: 94%;
+  // height: 94%;
+  // margin: 3% 3% 3% 3%;
+  width: 96vw;
+  height: 96vh;
+  margin: 2vh 2vw 2vh 2vw;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  //min-height: 100%;
+  // background-color: rgba(255,255,255, 0.8);
+  // border-radius: 0;
+}
+
+.modal-header{
+  font-size: 2.5em;
+  border-bottom: 6px double $theme-primary;
+}
+
+.modal-footer{
+  border-top: 6px double $theme-primary;
+  font-size: 1.5em;
+}
